@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Contact</title>
+    <style>
+        header {
+            background-color: #b2c6fc;
+            color: #030303;
+            text-align: left;
+            padding: 3px;
+            text-transform: none;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #fff;
+            text-align: left;
+            padding: 15px;
+            border-top: 2px solid #0e0be6;
+            border-bottom: 2px solid #0e0be6;
+        }
+        nav a {
+            text-decoration: none;
+            color: #050505;
+            margin: 0 15px;
+            font-weight: normal;
+            font-family: 'lucida console', sans-serif;
+        }
+            nav a:not(:last-child) {
+            position: relative;
+        }
+            nav a:not(:last-child):after {
+            content: '|';
+            position: relative;
+            right: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .footer p1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+        }
+        .content ul li{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        nav a:hover {
+            color: #0e0be6; /* Warna tautan saat dihover */
+        }
+        nav a:active {
+        color: red; /* Warna tautan setelah diklik */
+    }
+    </style>
+ 
+    <!-- Kode lainnya -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+    
+<body>
+    <header>
+        <h1>Hubungi Kami</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home        </a>
+        <a href="profile.html">Profile     </a>
+        <a href="about.html">About       </a>
+        <a href="gallery.html">Gallery     </a>
+        <a href="contact.html">Contact     </a>
+    </nav>
+    <div class="content">
+        <h2>Informasi Kontak</h2>
+        <ul>
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Lokasi:</strong> <a href="https://www.google.com/maps?q=-6.447971, 106.727289">Vila Gading Parung, Bogor, Jawa Barat</a></li>
+            <li><i class="fab fa-whatsapp"></i> <strong>Nomor WhatsApp:</strong> <a href="tel:+6289638908645">+62 89638908645</a></li>
+            <li><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:eydarmawan17@gmail.com">eydarmawan17@gmail.com</a></li>
+            <li><i class="fab fa-facebook"></i> <strong>Facebook:</strong> <a href="https://web.facebook.com/yudhi.darmawan.52">Yudhi Darmawan</a></li>
+        </ul>
+        
+    </div>
+    <div class="footer">
+        <p>Terimakasih anda telah menghubungi kami. Kami akan segera merespon pesan anda.</p>
+        <br>
+        <hr>
+        <p1 class="admin-text">Created by EkoYudiDarmawan &copy; 2024</p1>
+    </div>
+</body>
+</html>
